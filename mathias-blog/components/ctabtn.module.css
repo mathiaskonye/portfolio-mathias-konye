@@ -1,0 +1,16 @@
+.ctabtn {
+    background-color: #008891;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: transition 0.2;
+  }
+.ctabtn:hover {
+ background-color: #0f3057;
+}

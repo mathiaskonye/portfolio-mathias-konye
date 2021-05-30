@@ -1,0 +1,13 @@
+.footer {
+    padding: 20px;
+    display: flex;
+    height: 70px;
+    color: #0f3057;
+    font-size: 14px;
+    font-family: kaushan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.5px;
+    border-top: 1px solid lightgrey;
+}

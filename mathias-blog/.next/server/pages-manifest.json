@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/components/contactcontainer": "pages/components/contactcontainer.html",
+  "/components/ctabtn": "pages/components/ctabtn.html",
+  "/components/footer": "pages/components/footer.html",
+  "/components/ghostbtn": "pages/components/ghostbtn.html",
+  "/components/heroabout": "pages/components/heroabout.html",
+  "/components/herobanner": "pages/components/herobanner.html",
+  "/components/menu": "pages/components/menu.html",
+  "/components/navbar": "pages/components/navbar.html",
+  "/contact": "pages/contact.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

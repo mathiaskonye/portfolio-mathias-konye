@@ -1,0 +1,151 @@
+.btnContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-self: center;
+    background-color: #e7e7de;
+    border-bottom: 0.1px solid #e7e7de;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.navtext {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0f3057;
+    font-size:16px;
+    margin: 8px;
+    white-space: nowrap;
+}
+.brand {
+    border-bottom: 2px solid #008891;
+    letter-spacing: 1px;
+    color: #0f3057;
+    display: flex;
+    align-content: center;
+    font-family: kaushan;
+    font-size: 29px;
+    margin-top: 3px;
+}
+.anchorLogo {
+    transition: transform .2s;
+}
+.anchorLogo:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.bgColor {
+    background-image: url(../public/images/blur-portfolio.png);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #2c3539;;
+}
+.contactBg {
+    padding: 20px;
+    background-color: #e7e7de;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+.headerHomeImage {
+    background-image: url(../public/images/placeholder-profile-sq.jpg);
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #0f3057;
+  }
+.wrapperMenu {
+    margin-right: 33%;
+    margin-left: 33%;
+    background-color: #e7e7de;
+}
+.wrapper {
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.responsiveImage {
+    background-image: url(../public/images/contact.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.contactH1 {
+    font-family: kaushan;
+    border-bottom: 2px solid #008891;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.icons {
+    font-size: 30px;
+    color: #008891;
+    padding: 10px;
+}
+.marginTop {
+    margin-top: 50px;
+}
+.bgAbout {
+    box-shadow: 0px 0px 20px #3c3539;
+    background-image: url(../public/images/blur-portfolio.png);
+    border: 1px solid #a9a9a9;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.footerText {
+    font-family: kaushan;
+    font-size: 24px;
+}
+.smoothTrans {
+    animation: transition 1s;
+}
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: rotateX(-50deg);
+    } to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .bgAbout {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .responsiveImage {
+        height: 300px;
+        width: 300px;
+    }
+    .footerText {
+        font-family: kaushan;
+        font-size: 18px;
+    }
+}
